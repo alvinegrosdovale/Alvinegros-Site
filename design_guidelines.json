@@ -1,0 +1,118 @@
+{
+  "theme": "dark",
+  "brand_name": "Alvinegros do Vale",
+  "design_concept": "Gritty, urban streetwear mixed with passionate football culture (torcida/supporters). Uses a high-contrast 'alvinegro' (black and white) aesthetic with bold, brutalist elements.",
+  "typography": {
+    "primary_heading_font": "Anton",
+    "secondary_heading_font": "Bebas Neue",
+    "body_font": "Montserrat",
+    "banned_fonts": ["Inter", "Roboto", "Open Sans", "Lato for headings"],
+    "heading_rules": "Oversized, impactful, and aggressive. Headings should be heavily capitalized, tracking-tight (letter-spacing tight), and bold. Avoid soft, rounded typefaces.",
+    "hierarchy": {
+      "h1": "text-6xl sm:text-7xl lg:text-8xl tracking-tighter uppercase",
+      "h2": "text-4xl sm:text-5xl lg:text-6xl tracking-tight uppercase",
+      "h3": "text-2xl sm:text-3xl tracking-tight uppercase",
+      "body": "text-base leading-relaxed text-gray-300",
+      "labels": "text-xs tracking-[0.2em] uppercase text-gray-400"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#000000",
+      "secondary": "#111111",
+      "tertiary": "#1A1A1A"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#E5E5E5",
+      "muted": "#808080"
+    },
+    "accent": {
+      "primary": "#E63946",
+      "hover": "#D62828",
+      "warning": "#FFD700"
+    },
+    "borders": {
+      "subtle": "rgba(255, 255, 255, 0.1)",
+      "strong": "rgba(255, 255, 255, 0.4)"
+    },
+    "rules": "Strict monochrome foundation (Alvinegro). No soft purple gradients or generic pastel palettes. Use the accent color (Signal Red #E63946) very sparingly for high-priority CTAs and alerts."
+  },
+  "visual_enhancers": {
+    "textures": "Use CSS-based noise/grain textures overlay (e.g. mixed-blend-mode overlay with a noise SVG) to give a stamped/printed or gritty urban feel.",
+    "borders_and_shadows": "Avoid soft blurred drop shadows. Use Neo-brutalist solid shadows (e.g., shadow-[4px_4px_0_0_#FFFFFF]) or sharp 1px borders.",
+    "hover_effects": "Product images should transition from high-contrast grayscale to full color on hover. Use scan-line animations or subtle glitch effects for premium interactions."
+  },
+  "layouts": {
+    "general": "Asymmetrical grids, high density for the admin dashboard, and expansive, bold sections for the e-commerce frontend.",
+    "hero": "Dark, immersive hero with a background image of a stadium/fans. Heavy black overlay (bg-black/60) with massive, centered typography or staggered brutalist layout.",
+    "product_grid": "Bento-style or strict architectural grid. Product cards should feel like collectible artifacts with sharp edges and distinct borders.",
+    "spacing": "Generous spacing (p-8, p-12) between distinct sections to let the typography breathe, but tight spacing within product data clusters."
+  },
+  "components": {
+    "buttons": "Sharp corners (rounded-none or max rounded-sm). High contrast (white text on red bg, or black text on white bg). On hover, implement a hard translation (e.g. -translate-y-1) and solid shadow.",
+    "cards": "Sharp edges, 1px border (border-white/20), flat dark background. Never use soft SaaS shadows.",
+    "inputs": "Solid dark backgrounds (bg-[#111111]), 1px border. Focus state should be a stark white or red ring.",
+    "navigation": "Solid or heavy glassmorphism header (backdrop-blur-xl bg-black/80). DO NOT use fully transparent backgrounds. Must have strong border-b."
+  },
+  "motion": {
+    "transitions": "Fast and punchy (duration-200 or duration-300). Use specific transition properties (transition-transform, transition-colors), DO NOT use 'transition-all'.",
+    "microinteractions": "Buttons and links should have a stark, instant feel rather than a slow, bouncy physics feel. Fits the 'gritty' nature."
+  },
+  "media": {
+    "rules": "Images should primarily feature high-contrast, moody, or black-and-white photography. Emphasize the 'torcida' (supporter) culture. Do not use generic, perfectly lit e-commerce models.",
+    "image_urls": {
+      "hero_backgrounds": [
+        {
+          "url": "https://images.unsplash.com/photo-1568101794887-a7a3f149f6e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwxfHxwYXNzaW9uYXRlJTIwZm9vdGJhbGwlMjBmYW5zJTIwc3RhZGl1bSUyMGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHx8fHwxNzgzOTk2NjM3fDA&ixlib=rb-4.1.0&q=85",
+          "description": "Black and white football field/stadium, perfect for hero section overlay."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1706741368086-919e33b1dcd1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHw0fHxwYXNzaW9uYXRlJTIwZm9vdGJhbGwlMjBmYW5zJTIwc3RhZGl1bSUyMGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHx8fHwxNzgzOTk2NjM3fDA&ixlib=rb-4.1.0&q=85",
+          "description": "Passionate fans stadium black and white texture."
+        }
+      ],
+      "products": [
+        {
+          "url": "https://images.unsplash.com/photo-1610502778270-c5c6f4c7d575?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxibGFuayUyMGJsYWNrJTIwdC1zaGlydCUyMG1vY2t1cHxlbnwwfHx8fDE3ODM5OTY2NDl8MA&ixlib=rb-4.1.0&q=85",
+          "description": "Flat black t-shirt mockup"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1781931298303-ed4923335ccc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHw0fHxibGFjayUyMHNvY2NlciUyMGplcnNleSUyMHN0cmVldHdlYXJ8ZW58MHx8fHwxNzgzOTk2NjM3fDA&ixlib=rb-4.1.0&q=85",
+          "description": "Dark patterned soccer jersey detailing"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwxfHxibGFuayUyMHdoaXRlJTIwdC1zaGlydCUyMG1vY2t1cHxlbnwwfHx8fDE3ODM5OTY2NDl8MA&ixlib=rb-4.1.0&q=85",
+          "description": "Flat white t-shirt mockup"
+        }
+      ],
+      "lookbook_models": [
+        {
+          "url": "https://images.pexels.com/photos/4066292/pexels-photo-4066292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "description": "Model wearing black t-shirt in moody lighting"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1711925842530-fe8a24ba9082?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxibGFjayUyMHNvY2NlciUyMGplcnNleSUyMHN0cmVldHdlYXJ8ZW58MHx8fHwxNzgzOTk2NjM3fDA&ixlib=rb-4.1.0&q=85",
+          "description": "Streetwear model in black soccer jersey"
+        }
+      ]
+    }
+  },
+  "instructions_to_main_agent": {
+    "files": "Use `.js` and `.jsx` extensions. Do NOT use TypeScript (`.tsx`, `.ts`).",
+    "components": "Prioritize Shadcn components customized to fit the brutalist/streetwear aesthetic. Overwrite default border radii to `0` or `2px`. Disable all default soft drop-shadows and replace with hard `#FFFFFF` or `#E63946` shadows if necessary.",
+    "testing": "All interactive elements, buttons, and form inputs MUST contain a `data-testid` attribute using kebab-case role-based naming (e.g., `data-testid=\"add-to-favorites-button\"`).",
+    "icons": "Use `lucide-react` for standard UI icons. Use strong, thick stroke widths (e.g., strokeWidth={2.5}).",
+    "forms": "Use standard Shadcn form components but restyle the inputs heavily to feel dark and terminal/brutalist. No light mode input boxes."
+  },
+  "general_ui_ux_guidelines": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Create depth through layered design elements with z-index hierarchy, high contrast borders, and intentional use of negative space.",
+    "You MUST NOT apply universal transition (e.g., transition: all). This breaks transforms. Add specific transitions.",
+    "You MUST NOT center align the app container. Do not add `.App { text-align: center; }` in the CSS.",
+    "Always use bold modern button styles appropriate for this streetwear brand (brutalist, sharp, high contrast).",
+    "NEVER use AI assistant Emoji characters like \ud83e\udd16\ud83e\udde0\ud83d\udcad\ud83d\udca1\ud83d\udd2e\ud83c\udfaf for icons.",
+    "Include hover micro-interactions, stark layout changes, and noise overlays to differentiate from standard SaaS.",
+    "Toasts MUST use 'sonner' and match the dark, high-contrast theme of the application."
+  ]
+}
